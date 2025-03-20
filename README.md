@@ -40,7 +40,7 @@
 - [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 - [Day 20：使用 U-Net 作影像分割(Image Segmentation)](https://ithelp.ithome.com.tw/articles/10240314)
 - [深度學習Paper系列(05)：U-Net](https://tomohiroliu22.medium.com/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92paper%E7%B3%BB%E5%88%97-05-u-net-41be7533c934)
-- [[教學影片] U-Net 影像分割演算法實作]]([https://youtu.be/Er_UmH9qADE?si=wU1IQWH7xLO-To8U](https://www.youtube.com/watch?v=Er_UmH9qADE))
+- [教學影片] U-Net 影像分割演算法實作]([https://youtu.be/Er_UmH9qADE?si=wU1IQWH7xLO-To8U](https://www.youtube.com/watch?v=Er_UmH9qADE))
 
 ## 資料集
 
