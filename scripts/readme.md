@@ -1,7 +1,8 @@
-# 圖片道路二值化處理工具
+# 圖片道路遮罩轉換
 
 ## 簡介
 本程式用於批量處理圖片，將圖片中紫色道路區域轉換為黑色 (0)，其餘區域保持為白色 (255)，以生成二值化道路標註圖。適用於需要標記道路區域的影像處理任務。
+由於CamVid(Cambridge-Driving Labeled Video Database)有32個類別，為了只求出路面範圍而將其他類別的物件設為白色，目標路線設為黑色。
 
 ## 環境需求
 - Python 3.x
@@ -19,6 +20,7 @@
 - `convert_to_binary_road(input_path, output_path)`:
   - 讀取輸入圖片，將紫色區域 (RGB: 100,0,100 ~ 255,100,255) 轉換為黑色，其餘部分保持白色。
   - 儲存處理後的圖片。
+  - Cambridge-Driving Labeled Video Database 中路面顏色為紫色
 
 - `process_directory(input_dir, output_dir)`:
   - 處理整個資料夾內的圖片，產生標註圖片。
